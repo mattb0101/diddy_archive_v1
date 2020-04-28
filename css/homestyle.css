@@ -1,6 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Luckiest+Guy&display=swap');
+
 /*-------------------------------------------NavBar-------*/
 
+.top-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
 
+
+
+a h1 .diddy {
+    font-family: "Londrina Solid", cursive;
+    font-weight: 900;
+    font-size: 2em;
+    color: red;
+    text-shadow: -2px 0 yellow, 0 2px yellow, 2px 0 yellow, 0 -2px yellow; /* Reference - https://stackoverflow.com/questions/2570972/css-font-border */
+    letter-spacing: -2px;
+    transform-style: preserve-3d;
+}
+a h1 .vs {
+    font-family: "Londrina Solid", cursive;
+    
+}
+a h1 .kingdom {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 900;
+    
+}
 
 
 
@@ -15,8 +44,16 @@
 
     background-position: center;
 
-    height: 100vh;  
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;  
 }
+
+
 
 
 
