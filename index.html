@@ -11,49 +11,66 @@
       crossorigin="anonymous"
       type="text/css"
     />
+    <script
+      src="https://kit.fontawesome.com/8f7d2474b3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="stylesheet" href="css/homestyle.css" type="text/css" />
     <title>Diddy vs. The Kingdom</title>
   </head>
 
   <body>
-    <!--centering the name so making this as a container above the navbar-->
     <header>
-      <!-- <div class="container-fluid">
-			<div class="row name">
-				<div class="col" style="background-color: #f4f4f4">
-					<a class="nav-link" href="/">Diddy vs. The Kingdom</a>
-				</div>
-			</div>
-		</div> -->
+      <nav id="navigation">
+        <!-- Probably need to give this a class later and sort some individual styles -->
+          <div class="name">
+            <div class="diddy uppercase"><a href="index.html">diddy</a></div>
+            <div class="vs"><a href="index.html">vs</a></div>
+            <div class="kingdom"><a href="index.html">the kingdom</a></div>
+          </div>
 
-      <nav class="top-nav">
-        <div class="container-fluid">
-            <div>
-            <a href="#" class="nav-link" style="text-align: center"><h1><span class="diddy">DIDDY </span><span class="vs">vs. </span><span class="kingdom">The Kingdom</span></h1></a>
-          <!-- Look into tabs and fading etc to different tabs - bootstrap-->
-          <ul class="nav nav-tabs justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">The Band</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pics</a>
-            </li>
-          </ul>
-        </div>
-        </div>
+        <ul class="nav justify-content-center nav-tabs menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">The Band</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Pics</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
-    <div class="frame">
-		<!-- <section>
+    <section>
+      <h1>Main Body</h1>
+    </section>
 
-		</section> -->
-	</div>
-
-    <footer></footer>
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4">
+          <h4 class="uppercase">Social</h4>
+          <ul class="list-inline social">
+            <li class="list-inline-item">
+              <a
+                href="https://www.facebook.com/diddyvsthekingdom/"
+                target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://www.instagram.com/diddyvsthekingdom/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
