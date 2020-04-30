@@ -8,6 +8,31 @@
     color: #fff;
 } */
 
+/*---------------------------------------Background--*/
+
+.container-main {
+    background: url("../img/background_1_crop2.jpg") no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 100vh;
+    
+    position: relative;
+}
+
+/* used this from the first bootstrap project as covers it up and dampens it nicely */
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
 /*---------------------------------------General--*/
 
 header {
@@ -87,6 +112,8 @@ footer {
     color: #fff;
 
     height: 75px;
+
+    border-top: 1px solid #fff;
 }
 
 .social li a i {

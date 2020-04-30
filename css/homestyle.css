@@ -50,10 +50,10 @@ a h1 .kingdom {
 
 .container-main {
     background: url("../img/guitar_n64.jpg") no-repeat top left fixed;
-    -webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    background-size: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
     background-position: center;
 
